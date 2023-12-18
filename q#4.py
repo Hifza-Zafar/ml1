@@ -1,0 +1,5 @@
+input_sequence = input("Enter a sequence of comma-separated numbers: ")
+result_list = input_sequence.split(',')
+result_tuple = tuple(result_list)
+print("List is :",result_list)
+print("Tuple is :",result_tuple)
